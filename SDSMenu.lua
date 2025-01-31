@@ -1,4 +1,4 @@
-﻿-- Gui to Lua
+-- Gui to Lua
 -- Version: 3.2
 
 -- Instances:
@@ -77,67 +77,96 @@ local TextLabel_7 = Instance.new("TextLabel")
 local yesCharged = Instance.new("ImageButton")
 local TextLabel_8 = Instance.new("TextLabel")
 local desc_4 = Instance.new("TextLabel")
-local settings2 = Instance.new("Frame")
-local Trowel = Instance.new("Frame")
-local Frame_5 = Instance.new("Frame")
-local Stock = Instance.new("ImageButton")
-local TextLabel_9 = Instance.new("TextLabel")
-local Bridge = Instance.new("ImageButton")
-local TextLabel_10 = Instance.new("TextLabel")
-local Truss = Instance.new("ImageButton")
-local TextLabel_11 = Instance.new("TextLabel")
-local Cage = Instance.new("ImageButton")
-local TextLabel_12 = Instance.new("TextLabel")
-local UIListLayout_11 = Instance.new("UIGridLayout")
-local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
-local Turret = Instance.new("ImageButton")
-local TextLabel_13 = Instance.new("TextLabel")
-local Trampoline = Instance.new("ImageButton")
-local TextLabel_14 = Instance.new("TextLabel")
-local Clone = Instance.new("ImageButton")
-local TextLabel_15 = Instance.new("TextLabel")
-local Spike = Instance.new("ImageButton")
-local TextLabel_16 = Instance.new("TextLabel")
-local None = Instance.new("ImageButton")
-local TextLabel_17 = Instance.new("TextLabel")
-local desc_5 = Instance.new("TextLabel")
-local title_2 = Instance.new("Frame")
+local Remote = Instance.new("Frame")
 local name_5 = Instance.new("TextLabel")
-local icon_7 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
-local UIListLayout_12 = Instance.new("UIListLayout")
-local UIListLayout_13 = Instance.new("UIListLayout")
-local mobileCam = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local UIListLayout_11 = Instance.new("UIListLayout")
+local yes_2 = Instance.new("ImageButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local no_2 = Instance.new("ImageButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local yesCharged_2 = Instance.new("ImageButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local desc_5 = Instance.new("TextLabel")
+local LogbookBuy = Instance.new("Frame")
 local name_6 = Instance.new("TextLabel")
 local Frame_6 = Instance.new("Frame")
-local UIListLayout_14 = Instance.new("UIListLayout")
-local yes_2 = Instance.new("ImageButton")
-local TextLabel_18 = Instance.new("TextLabel")
-local no_2 = Instance.new("ImageButton")
-local TextLabel_19 = Instance.new("TextLabel")
-local desc_6 = Instance.new("TextLabel")
-local inputTips = Instance.new("Frame")
-local Frame_7 = Instance.new("Frame")
-local UIListLayout_15 = Instance.new("UIListLayout")
+local UIListLayout_12 = Instance.new("UIListLayout")
 local yes_3 = Instance.new("ImageButton")
-local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
 local no_3 = Instance.new("ImageButton")
+local TextLabel_13 = Instance.new("TextLabel")
+local desc_6 = Instance.new("TextLabel")
+local settings2 = Instance.new("Frame")
+local Trowel = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
+local Stock = Instance.new("ImageButton")
+local TextLabel_14 = Instance.new("TextLabel")
+local Bridge = Instance.new("ImageButton")
+local TextLabel_15 = Instance.new("TextLabel")
+local Truss = Instance.new("ImageButton")
+local TextLabel_16 = Instance.new("TextLabel")
+local Cage = Instance.new("ImageButton")
+local TextLabel_17 = Instance.new("TextLabel")
+local UIListLayout_13 = Instance.new("UIGridLayout")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local Turret = Instance.new("ImageButton")
+local TextLabel_18 = Instance.new("TextLabel")
+local Trampoline = Instance.new("ImageButton")
+local TextLabel_19 = Instance.new("TextLabel")
+local Clone = Instance.new("ImageButton")
+local TextLabel_20 = Instance.new("TextLabel")
+local Spike = Instance.new("ImageButton")
 local TextLabel_21 = Instance.new("TextLabel")
+local None = Instance.new("ImageButton")
+local TextLabel_22 = Instance.new("TextLabel")
 local desc_7 = Instance.new("TextLabel")
-local title_3 = Instance.new("Frame")
+local title_2 = Instance.new("Frame")
 local name_7 = Instance.new("TextLabel")
-local UIListLayout_16 = Instance.new("UIListLayout")
-local altSpecial = Instance.new("Frame")
+local icon_7 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local UIListLayout_14 = Instance.new("UIListLayout")
+local UIListLayout_15 = Instance.new("UIListLayout")
+local mobileCam = Instance.new("Frame")
 local name_8 = Instance.new("TextLabel")
 local Frame_8 = Instance.new("Frame")
-local UIListLayout_17 = Instance.new("UIListLayout")
+local UIListLayout_16 = Instance.new("UIListLayout")
 local yes_4 = Instance.new("ImageButton")
-local TextLabel_22 = Instance.new("TextLabel")
-local no_4 = Instance.new("ImageButton")
 local TextLabel_23 = Instance.new("TextLabel")
-local desc_8 = Instance.new("TextLabel")
-local SettingsError = Instance.new("ImageLabel")
+local no_4 = Instance.new("ImageButton")
 local TextLabel_24 = Instance.new("TextLabel")
+local desc_8 = Instance.new("TextLabel")
+local inputTips = Instance.new("Frame")
+local Frame_9 = Instance.new("Frame")
+local UIListLayout_17 = Instance.new("UIListLayout")
+local yes_5 = Instance.new("ImageButton")
+local TextLabel_25 = Instance.new("TextLabel")
+local no_5 = Instance.new("ImageButton")
+local TextLabel_26 = Instance.new("TextLabel")
+local desc_9 = Instance.new("TextLabel")
+local title_3 = Instance.new("Frame")
+local name_9 = Instance.new("TextLabel")
+local UIListLayout_18 = Instance.new("UIListLayout")
+local altSpecial = Instance.new("Frame")
+local name_10 = Instance.new("TextLabel")
+local Frame_10 = Instance.new("Frame")
+local UIListLayout_19 = Instance.new("UIListLayout")
+local yes_6 = Instance.new("ImageButton")
+local TextLabel_27 = Instance.new("TextLabel")
+local no_6 = Instance.new("ImageButton")
+local TextLabel_28 = Instance.new("TextLabel")
+local desc_10 = Instance.new("TextLabel")
+local TrowelWeld = Instance.new("Frame")
+local name_11 = Instance.new("TextLabel")
+local Frame_11 = Instance.new("Frame")
+local UIListLayout_20 = Instance.new("UIListLayout")
+local yes_7 = Instance.new("ImageButton")
+local TextLabel_29 = Instance.new("TextLabel")
+local no_7 = Instance.new("ImageButton")
+local TextLabel_30 = Instance.new("TextLabel")
+local desc_11 = Instance.new("TextLabel")
+local SettingsError = Instance.new("ImageLabel")
+local TextLabel_31 = Instance.new("TextLabel")
 local Exploit = Instance.new("ImageButton")
 local icon_8 = Instance.new("ImageLabel")
 local shadow_2 = Instance.new("ImageLabel")
@@ -1012,6 +1041,296 @@ desc_4.TextScaled = true
 desc_4.TextSize = 14.000
 desc_4.TextWrapped = true
 
+Remote.Name = "Remote"
+Remote.Parent = settings1
+Remote.AnchorPoint = Vector2.new(0.5, 0.5)
+Remote.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Remote.BackgroundTransparency = 1.000
+Remote.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Remote.BorderSizePixel = 0
+Remote.LayoutOrder = 1
+Remote.Position = UDim2.new(0.5, 0, 0.5, 0)
+Remote.Size = UDim2.new(1, 0, 0.25, 0)
+Remote.ZIndex = 4
+
+name_5.Name = "name"
+name_5.Parent = Remote
+name_5.AnchorPoint = Vector2.new(0.5, 0.5)
+name_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_5.BackgroundTransparency = 1.000
+name_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+name_5.BorderSizePixel = 0
+name_5.Position = UDim2.new(0.5, 0, 0.200000003, 0)
+name_5.Size = UDim2.new(0.800000012, 0, 0.300000012, 0)
+name_5.ZIndex = 5
+name_5.Font = Enum.Font.GothamBold
+name_5.Text = "Infinite Remote Detonators"
+name_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+name_5.TextScaled = true
+name_5.TextSize = 14.000
+name_5.TextWrapped = true
+
+Frame_5.Parent = Remote
+Frame_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_5.Position = UDim2.new(0.5, 0, 0.800000012, 0)
+Frame_5.Size = UDim2.new(1, 0, 0.400000006, 0)
+
+UIListLayout_11.Parent = Frame_5
+UIListLayout_11.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_11.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_11.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_11.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_11.Padding = UDim.new(0.0299999993, 0)
+
+yes_2.Name = "yes"
+yes_2.Parent = Frame_5
+yes_2.AnchorPoint = Vector2.new(0.5, 0.5)
+yes_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yes_2.BackgroundTransparency = 1.000
+yes_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+yes_2.BorderSizePixel = 0
+yes_2.LayoutOrder = 2
+yes_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+yes_2.Size = UDim2.new(0.310000002, 0, 1, 0)
+yes_2.ZIndex = 3
+yes_2.Image = "rbxassetid://89175572380749"
+yes_2.ImageColor3 = Color3.fromRGB(118, 118, 118)
+yes_2.ImageRectOffset = Vector2.new(4, 4)
+yes_2.ImageRectSize = Vector2.new(192, 192)
+yes_2.ScaleType = Enum.ScaleType.Slice
+yes_2.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_9.Parent = yes_2
+TextLabel_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_9.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_9.ZIndex = 5
+TextLabel_9.Font = Enum.Font.Gotham
+TextLabel_9.Text = "On"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+no_2.Name = "no"
+no_2.Parent = Frame_5
+no_2.AnchorPoint = Vector2.new(0.5, 0.5)
+no_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+no_2.BackgroundTransparency = 1.000
+no_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+no_2.BorderSizePixel = 0
+no_2.LayoutOrder = 3
+no_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+no_2.Size = UDim2.new(0.310000002, 0, 1, 0)
+no_2.ZIndex = 3
+no_2.Image = "rbxassetid://89175572380749"
+no_2.ImageColor3 = Color3.fromRGB(134, 140, 255)
+no_2.ImageRectOffset = Vector2.new(4, 4)
+no_2.ImageRectSize = Vector2.new(192, 192)
+no_2.ScaleType = Enum.ScaleType.Slice
+no_2.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_10.Parent = no_2
+TextLabel_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_10.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_10.ZIndex = 5
+TextLabel_10.Font = Enum.Font.GothamBold
+TextLabel_10.Text = "Off"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+yesCharged_2.Name = "yesCharged"
+yesCharged_2.Parent = Frame_5
+yesCharged_2.AnchorPoint = Vector2.new(0.5, 0.5)
+yesCharged_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yesCharged_2.BackgroundTransparency = 1.000
+yesCharged_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+yesCharged_2.BorderSizePixel = 0
+yesCharged_2.LayoutOrder = 1
+yesCharged_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+yesCharged_2.Size = UDim2.new(0.310000002, 0, 1, 0)
+yesCharged_2.ZIndex = 3
+yesCharged_2.Image = "rbxassetid://89175572380749"
+yesCharged_2.ImageColor3 = Color3.fromRGB(118, 118, 118)
+yesCharged_2.ImageRectOffset = Vector2.new(4, 4)
+yesCharged_2.ImageRectSize = Vector2.new(192, 192)
+yesCharged_2.ScaleType = Enum.ScaleType.Slice
+yesCharged_2.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_11.Parent = yesCharged_2
+TextLabel_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_11.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_11.ZIndex = 5
+TextLabel_11.Font = Enum.Font.Gotham
+TextLabel_11.Text = "On (Charged)"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+desc_5.Name = "desc"
+desc_5.Parent = Remote
+desc_5.AnchorPoint = Vector2.new(0.5, 0.5)
+desc_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+desc_5.BackgroundTransparency = 1.000
+desc_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+desc_5.BorderSizePixel = 0
+desc_5.Position = UDim2.new(0.5, 0, 0.449999988, 0)
+desc_5.Size = UDim2.new(1, 0, 0.25, 0)
+desc_5.ZIndex = 5
+desc_5.Font = Enum.Font.Gotham
+desc_5.Text = "Throws remote detonators where your mouse is."
+desc_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+desc_5.TextScaled = true
+desc_5.TextSize = 14.000
+desc_5.TextWrapped = true
+
+LogbookBuy.Name = "LogbookBuy"
+LogbookBuy.Parent = settings1
+LogbookBuy.AnchorPoint = Vector2.new(0.5, 0.5)
+LogbookBuy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LogbookBuy.BackgroundTransparency = 1.000
+LogbookBuy.BorderColor3 = Color3.fromRGB(27, 42, 53)
+LogbookBuy.BorderSizePixel = 0
+LogbookBuy.LayoutOrder = 1
+LogbookBuy.Position = UDim2.new(0.5, 0, 0.5, 0)
+LogbookBuy.Size = UDim2.new(1, 0, 0.25, 0)
+LogbookBuy.ZIndex = 4
+
+name_6.Name = "name"
+name_6.Parent = LogbookBuy
+name_6.AnchorPoint = Vector2.new(0.5, 0.5)
+name_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_6.BackgroundTransparency = 1.000
+name_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+name_6.BorderSizePixel = 0
+name_6.Position = UDim2.new(0.5, 0, 0.200000003, 0)
+name_6.Size = UDim2.new(0.800000012, 0, 0.300000012, 0)
+name_6.ZIndex = 5
+name_6.Font = Enum.Font.GothamBold
+name_6.Text = "Buy items from logbook"
+name_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+name_6.TextScaled = true
+name_6.TextSize = 14.000
+name_6.TextWrapped = true
+
+Frame_6.Parent = LogbookBuy
+Frame_6.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_6.Position = UDim2.new(0.5, 0, 0.800000012, 0)
+Frame_6.Size = UDim2.new(1, 0, 0.400000006, 0)
+
+UIListLayout_12.Parent = Frame_6
+UIListLayout_12.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_12.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_12.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_12.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_12.Padding = UDim.new(0.0299999993, 0)
+
+yes_3.Name = "yes"
+yes_3.Parent = Frame_6
+yes_3.AnchorPoint = Vector2.new(0.5, 0.5)
+yes_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yes_3.BackgroundTransparency = 1.000
+yes_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+yes_3.BorderSizePixel = 0
+yes_3.LayoutOrder = 2
+yes_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+yes_3.Size = UDim2.new(0.310000002, 0, 1, 0)
+yes_3.ZIndex = 3
+yes_3.Image = "rbxassetid://89175572380749"
+yes_3.ImageColor3 = Color3.fromRGB(118, 118, 118)
+yes_3.ImageRectOffset = Vector2.new(4, 4)
+yes_3.ImageRectSize = Vector2.new(192, 192)
+yes_3.ScaleType = Enum.ScaleType.Slice
+yes_3.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_12.Parent = yes_3
+TextLabel_12.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_12.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_12.ZIndex = 5
+TextLabel_12.Font = Enum.Font.Gotham
+TextLabel_12.Text = "On"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+no_3.Name = "no"
+no_3.Parent = Frame_6
+no_3.AnchorPoint = Vector2.new(0.5, 0.5)
+no_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+no_3.BackgroundTransparency = 1.000
+no_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+no_3.BorderSizePixel = 0
+no_3.LayoutOrder = 3
+no_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+no_3.Size = UDim2.new(0.310000002, 0, 1, 0)
+no_3.ZIndex = 3
+no_3.Image = "rbxassetid://89175572380749"
+no_3.ImageColor3 = Color3.fromRGB(134, 140, 255)
+no_3.ImageRectOffset = Vector2.new(4, 4)
+no_3.ImageRectSize = Vector2.new(192, 192)
+no_3.ScaleType = Enum.ScaleType.Slice
+no_3.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_13.Parent = no_3
+TextLabel_13.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_13.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_13.ZIndex = 5
+TextLabel_13.Font = Enum.Font.GothamBold
+TextLabel_13.Text = "Off"
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+desc_6.Name = "desc"
+desc_6.Parent = LogbookBuy
+desc_6.AnchorPoint = Vector2.new(0.5, 0.5)
+desc_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+desc_6.BackgroundTransparency = 1.000
+desc_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+desc_6.BorderSizePixel = 0
+desc_6.Position = UDim2.new(0.5, 0, 0.449999988, 0)
+desc_6.Size = UDim2.new(1, 0, 0.25, 0)
+desc_6.ZIndex = 5
+desc_6.Font = Enum.Font.Gotham
+desc_6.Text = "Reveals every item in the logbook, click on an item to buy it."
+desc_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+desc_6.TextScaled = true
+desc_6.TextSize = 14.000
+desc_6.TextWrapped = true
+
 settings2.Name = "settings2"
 settings2.Parent = Settings_Main
 settings2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1034,15 +1353,15 @@ Trowel.Position = UDim2.new(0.5, 0, 0.5, 0)
 Trowel.Size = UDim2.new(1, 0, 0.25, 0)
 Trowel.ZIndex = 4
 
-Frame_5.Parent = Trowel
-Frame_5.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame_5.Position = UDim2.new(0.5, 0, 1.24084198, 0)
-Frame_5.Size = UDim2.new(1, 0, 0.400000006, 0)
+Frame_7.Parent = Trowel
+Frame_7.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_7.Position = UDim2.new(0.5, 0, 1.24084198, 0)
+Frame_7.Size = UDim2.new(1, 0, 0.400000006, 0)
 
 Stock.Name = "Stock"
-Stock.Parent = Frame_5
+Stock.Parent = Frame_7
 Stock.AnchorPoint = Vector2.new(0.5, 0.5)
 Stock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Stock.BackgroundTransparency = 1.000
@@ -1058,24 +1377,24 @@ Stock.ImageRectSize = Vector2.new(192, 192)
 Stock.ScaleType = Enum.ScaleType.Slice
 Stock.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_9.Parent = Stock
-TextLabel_9.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_9.BorderSizePixel = 0
-TextLabel_9.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_9.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_9.ZIndex = 5
-TextLabel_9.Font = Enum.Font.GothamMedium
-TextLabel_9.Text = "Stock"
-TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextScaled = true
-TextLabel_9.TextSize = 14.000
-TextLabel_9.TextWrapped = true
+TextLabel_14.Parent = Stock
+TextLabel_14.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_14.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_14.ZIndex = 5
+TextLabel_14.Font = Enum.Font.GothamMedium
+TextLabel_14.Text = "Stock"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
 
 Bridge.Name = "Bridge"
-Bridge.Parent = Frame_5
+Bridge.Parent = Frame_7
 Bridge.AnchorPoint = Vector2.new(0.5, 0.5)
 Bridge.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Bridge.BackgroundTransparency = 1.000
@@ -1091,24 +1410,24 @@ Bridge.ImageRectSize = Vector2.new(192, 192)
 Bridge.ScaleType = Enum.ScaleType.Slice
 Bridge.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_10.Parent = Bridge
-TextLabel_10.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_10.BorderSizePixel = 0
-TextLabel_10.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_10.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_10.ZIndex = 5
-TextLabel_10.Font = Enum.Font.GothamMedium
-TextLabel_10.Text = "Bridge"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextScaled = true
-TextLabel_10.TextSize = 14.000
-TextLabel_10.TextWrapped = true
+TextLabel_15.Parent = Bridge
+TextLabel_15.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_15.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_15.ZIndex = 5
+TextLabel_15.Font = Enum.Font.GothamMedium
+TextLabel_15.Text = "Bridge"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
 
 Truss.Name = "Truss"
-Truss.Parent = Frame_5
+Truss.Parent = Frame_7
 Truss.AnchorPoint = Vector2.new(0.5, 0.5)
 Truss.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Truss.BackgroundTransparency = 1.000
@@ -1124,24 +1443,24 @@ Truss.ImageRectSize = Vector2.new(192, 192)
 Truss.ScaleType = Enum.ScaleType.Slice
 Truss.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_11.Parent = Truss
-TextLabel_11.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_11.BorderSizePixel = 0
-TextLabel_11.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_11.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_11.ZIndex = 5
-TextLabel_11.Font = Enum.Font.Gotham
-TextLabel_11.Text = "Truss"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextScaled = true
-TextLabel_11.TextSize = 14.000
-TextLabel_11.TextWrapped = true
+TextLabel_16.Parent = Truss
+TextLabel_16.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_16.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_16.ZIndex = 5
+TextLabel_16.Font = Enum.Font.Gotham
+TextLabel_16.Text = "Truss"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
 
 Cage.Name = "Cage"
-Cage.Parent = Frame_5
+Cage.Parent = Frame_7
 Cage.AnchorPoint = Vector2.new(0.5, 0.5)
 Cage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Cage.BackgroundTransparency = 1.000
@@ -1157,34 +1476,34 @@ Cage.ImageRectSize = Vector2.new(192, 192)
 Cage.ScaleType = Enum.ScaleType.Slice
 Cage.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_12.Parent = Cage
-TextLabel_12.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_12.BorderSizePixel = 0
-TextLabel_12.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_12.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_12.ZIndex = 5
-TextLabel_12.Font = Enum.Font.Gotham
-TextLabel_12.Text = "Cage"
-TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.TextScaled = true
-TextLabel_12.TextSize = 14.000
-TextLabel_12.TextWrapped = true
+TextLabel_17.Parent = Cage
+TextLabel_17.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_17.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_17.ZIndex = 5
+TextLabel_17.Font = Enum.Font.Gotham
+TextLabel_17.Text = "Cage"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
 
-UIListLayout_11.Name = "UIListLayout"
-UIListLayout_11.Parent = Frame_5
-UIListLayout_11.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_11.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_11.VerticalAlignment = Enum.VerticalAlignment.Center
-UIListLayout_11.CellSize = UDim2.new(0.310000002, 0, 1, 0)
+UIListLayout_13.Name = "UIListLayout"
+UIListLayout_13.Parent = Frame_7
+UIListLayout_13.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_13.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_13.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_13.CellSize = UDim2.new(0.310000002, 0, 1, 0)
 
-UIAspectRatioConstraint_11.Parent = UIListLayout_11
+UIAspectRatioConstraint_11.Parent = UIListLayout_13
 UIAspectRatioConstraint_11.AspectRatio = 2.790
 
 Turret.Name = "Turret"
-Turret.Parent = Frame_5
+Turret.Parent = Frame_7
 Turret.AnchorPoint = Vector2.new(0.5, 0.5)
 Turret.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Turret.BackgroundTransparency = 1.000
@@ -1200,24 +1519,24 @@ Turret.ImageRectSize = Vector2.new(192, 192)
 Turret.ScaleType = Enum.ScaleType.Slice
 Turret.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_13.Parent = Turret
-TextLabel_13.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.BackgroundTransparency = 1.000
-TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_13.BorderSizePixel = 0
-TextLabel_13.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_13.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_13.ZIndex = 5
-TextLabel_13.Font = Enum.Font.Unknown
-TextLabel_13.Text = "Turret"
-TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.TextScaled = true
-TextLabel_13.TextSize = 14.000
-TextLabel_13.TextWrapped = true
+TextLabel_18.Parent = Turret
+TextLabel_18.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_18.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_18.ZIndex = 5
+TextLabel_18.Font = Enum.Font.Unknown
+TextLabel_18.Text = "Turret"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextWrapped = true
 
 Trampoline.Name = "Trampoline"
-Trampoline.Parent = Frame_5
+Trampoline.Parent = Frame_7
 Trampoline.AnchorPoint = Vector2.new(0.5, 0.5)
 Trampoline.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Trampoline.BackgroundTransparency = 1.000
@@ -1233,24 +1552,24 @@ Trampoline.ImageRectSize = Vector2.new(192, 192)
 Trampoline.ScaleType = Enum.ScaleType.Slice
 Trampoline.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_14.Parent = Trampoline
-TextLabel_14.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.BackgroundTransparency = 1.000
-TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_14.BorderSizePixel = 0
-TextLabel_14.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_14.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_14.ZIndex = 5
-TextLabel_14.Font = Enum.Font.Gotham
-TextLabel_14.Text = "Trampoline"
-TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.TextScaled = true
-TextLabel_14.TextSize = 14.000
-TextLabel_14.TextWrapped = true
+TextLabel_19.Parent = Trampoline
+TextLabel_19.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_19.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_19.ZIndex = 5
+TextLabel_19.Font = Enum.Font.Gotham
+TextLabel_19.Text = "Trampoline"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextWrapped = true
 
 Clone.Name = "Clone"
-Clone.Parent = Frame_5
+Clone.Parent = Frame_7
 Clone.AnchorPoint = Vector2.new(0.5, 0.5)
 Clone.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Clone.BackgroundTransparency = 1.000
@@ -1266,24 +1585,24 @@ Clone.ImageRectSize = Vector2.new(192, 192)
 Clone.ScaleType = Enum.ScaleType.Slice
 Clone.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_15.Parent = Clone
-TextLabel_15.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_15.BackgroundTransparency = 1.000
-TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_15.BorderSizePixel = 0
-TextLabel_15.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_15.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_15.ZIndex = 5
-TextLabel_15.Font = Enum.Font.Gotham
-TextLabel_15.Text = "Clone"
-TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_15.TextScaled = true
-TextLabel_15.TextSize = 14.000
-TextLabel_15.TextWrapped = true
+TextLabel_20.Parent = Clone
+TextLabel_20.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_20.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_20.ZIndex = 5
+TextLabel_20.Font = Enum.Font.Gotham
+TextLabel_20.Text = "Clone"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextWrapped = true
 
 Spike.Name = "Spike"
-Spike.Parent = Frame_5
+Spike.Parent = Frame_7
 Spike.AnchorPoint = Vector2.new(0.5, 0.5)
 Spike.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Spike.BackgroundTransparency = 1.000
@@ -1299,24 +1618,24 @@ Spike.ImageRectSize = Vector2.new(192, 192)
 Spike.ScaleType = Enum.ScaleType.Slice
 Spike.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_16.Parent = Spike
-TextLabel_16.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.BackgroundTransparency = 1.000
-TextLabel_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_16.BorderSizePixel = 0
-TextLabel_16.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_16.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_16.ZIndex = 5
-TextLabel_16.Font = Enum.Font.Gotham
-TextLabel_16.Text = "Spike"
-TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_16.TextScaled = true
-TextLabel_16.TextSize = 14.000
-TextLabel_16.TextWrapped = true
+TextLabel_21.Parent = Spike
+TextLabel_21.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_21.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_21.ZIndex = 5
+TextLabel_21.Font = Enum.Font.Gotham
+TextLabel_21.Text = "Spike"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextWrapped = true
 
 None.Name = "None"
-None.Parent = Frame_5
+None.Parent = Frame_7
 None.AnchorPoint = Vector2.new(0.5, 0.5)
 None.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 None.BackgroundTransparency = 1.000
@@ -1332,38 +1651,38 @@ None.ImageRectSize = Vector2.new(192, 192)
 None.ScaleType = Enum.ScaleType.Slice
 None.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_17.Parent = None
-TextLabel_17.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_17.BackgroundTransparency = 1.000
-TextLabel_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_17.BorderSizePixel = 0
-TextLabel_17.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_17.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_17.ZIndex = 5
-TextLabel_17.Font = Enum.Font.GothamBold
-TextLabel_17.Text = "None"
-TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_17.TextScaled = true
-TextLabel_17.TextSize = 14.000
-TextLabel_17.TextWrapped = true
+TextLabel_22.Parent = None
+TextLabel_22.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_22.BorderSizePixel = 0
+TextLabel_22.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_22.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_22.ZIndex = 5
+TextLabel_22.Font = Enum.Font.GothamBold
+TextLabel_22.Text = "None"
+TextLabel_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextWrapped = true
 
-desc_5.Name = "desc"
-desc_5.Parent = Trowel
-desc_5.AnchorPoint = Vector2.new(0.5, 0.5)
-desc_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-desc_5.BackgroundTransparency = 1.000
-desc_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-desc_5.BorderSizePixel = 0
-desc_5.Position = UDim2.new(0.5, 0, 0.449999988, 0)
-desc_5.Size = UDim2.new(0.899999976, 0, 0.25, 0)
-desc_5.ZIndex = 5
-desc_5.Font = Enum.Font.SourceSans
-desc_5.Text = "Changes the trowel being used. (Press Q to use it.)"
-desc_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-desc_5.TextScaled = true
-desc_5.TextSize = 14.000
-desc_5.TextWrapped = true
+desc_7.Name = "desc"
+desc_7.Parent = Trowel
+desc_7.AnchorPoint = Vector2.new(0.5, 0.5)
+desc_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+desc_7.BackgroundTransparency = 1.000
+desc_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+desc_7.BorderSizePixel = 0
+desc_7.Position = UDim2.new(0.5, 0, 0.449999988, 0)
+desc_7.Size = UDim2.new(0.899999976, 0, 0.25, 0)
+desc_7.ZIndex = 5
+desc_7.Font = Enum.Font.SourceSans
+desc_7.Text = "Changes the trowel being used. (Press Q to use it.)"
+desc_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+desc_7.TextScaled = true
+desc_7.TextSize = 14.000
+desc_7.TextWrapped = true
 
 title_2.Name = "title"
 title_2.Parent = Trowel
@@ -1372,23 +1691,23 @@ title_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 title_2.Position = UDim2.new(0, 0, 0.0250000004, 0)
 title_2.Size = UDim2.new(1, 0, 0.300000012, 0)
 
-name_5.Name = "name"
-name_5.Parent = title_2
-name_5.AnchorPoint = Vector2.new(0.5, 0.5)
-name_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-name_5.BackgroundTransparency = 1.000
-name_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-name_5.BorderSizePixel = 0
-name_5.LayoutOrder = 2
-name_5.Position = UDim2.new(0.5, 0, 0.200000003, 0)
-name_5.Size = UDim2.new(0.300000012, 0, 1, 0)
-name_5.ZIndex = 5
-name_5.Font = Enum.Font.GothamBold
-name_5.Text = "Trowel Selection"
-name_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-name_5.TextScaled = true
-name_5.TextSize = 14.000
-name_5.TextWrapped = true
+name_7.Name = "name"
+name_7.Parent = title_2
+name_7.AnchorPoint = Vector2.new(0.5, 0.5)
+name_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_7.BackgroundTransparency = 1.000
+name_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+name_7.BorderSizePixel = 0
+name_7.LayoutOrder = 2
+name_7.Position = UDim2.new(0.5, 0, 0.200000003, 0)
+name_7.Size = UDim2.new(0.300000012, 0, 1, 0)
+name_7.ZIndex = 5
+name_7.Font = Enum.Font.GothamBold
+name_7.Text = "Trowel Selection"
+name_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+name_7.TextScaled = true
+name_7.TextSize = 14.000
+name_7.TextWrapped = true
 
 icon_7.Name = "icon"
 icon_7.Parent = title_2
@@ -1406,17 +1725,17 @@ icon_7.ImageRectSize = Vector2.new(150, 150)
 
 UIAspectRatioConstraint_12.Parent = icon_7
 
-UIListLayout_12.Parent = title_2
-UIListLayout_12.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_12.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_12.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_12.VerticalAlignment = Enum.VerticalAlignment.Center
-UIListLayout_12.Padding = UDim.new(0.0199999996, 0)
+UIListLayout_14.Parent = title_2
+UIListLayout_14.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_14.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_14.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_14.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_14.Padding = UDim.new(0.0199999996, 0)
 
-UIListLayout_13.Parent = settings2
-UIListLayout_13.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_13.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_13.Padding = UDim.new(0.100000001, 0)
+UIListLayout_15.Parent = settings2
+UIListLayout_15.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_15.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_15.Padding = UDim.new(0.300000012, 0)
 
 mobileCam.Name = "mobileCam"
 mobileCam.Parent = settings2
@@ -1431,277 +1750,8 @@ mobileCam.Size = UDim2.new(1, 0, 0.25, 0)
 mobileCam.Visible = false
 mobileCam.ZIndex = 4
 
-name_6.Name = "name"
-name_6.Parent = mobileCam
-name_6.AnchorPoint = Vector2.new(0.5, 0.5)
-name_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-name_6.BackgroundTransparency = 1.000
-name_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-name_6.BorderSizePixel = 0
-name_6.Position = UDim2.new(0.5, 0, 0.200000003, 0)
-name_6.Size = UDim2.new(0.800000012, 0, 0.300000012, 0)
-name_6.ZIndex = 5
-name_6.Font = Enum.Font.GothamBold
-name_6.Text = "Camera Lock"
-name_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-name_6.TextScaled = true
-name_6.TextSize = 14.000
-name_6.TextWrapped = true
-
-Frame_6.Parent = mobileCam
-Frame_6.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame_6.Position = UDim2.new(0.5, 0, 0.800000012, 0)
-Frame_6.Size = UDim2.new(1, 0, 0.400000006, 0)
-
-UIListLayout_14.Parent = Frame_6
-UIListLayout_14.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_14.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_14.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_14.VerticalAlignment = Enum.VerticalAlignment.Center
-UIListLayout_14.Padding = UDim.new(0.0299999993, 0)
-
-yes_2.Name = "yes"
-yes_2.Parent = Frame_6
-yes_2.AnchorPoint = Vector2.new(0.5, 0.5)
-yes_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yes_2.BackgroundTransparency = 1.000
-yes_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-yes_2.BorderSizePixel = 0
-yes_2.Position = UDim2.new(0.5, 0, 0.5, 0)
-yes_2.Size = UDim2.new(0.310000002, 0, 1, 0)
-yes_2.ZIndex = 3
-yes_2.Image = "rbxassetid://89175572380749"
-yes_2.ImageColor3 = Color3.fromRGB(134, 140, 255)
-yes_2.ImageRectOffset = Vector2.new(4, 4)
-yes_2.ImageRectSize = Vector2.new(192, 192)
-yes_2.ScaleType = Enum.ScaleType.Slice
-yes_2.SliceCenter = Rect.new(96, 96, 96, 96)
-
-TextLabel_18.Parent = yes_2
-TextLabel_18.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_18.BackgroundTransparency = 1.000
-TextLabel_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_18.BorderSizePixel = 0
-TextLabel_18.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_18.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_18.ZIndex = 5
-TextLabel_18.Font = Enum.Font.GothamBlack
-TextLabel_18.Text = "On"
-TextLabel_18.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_18.TextScaled = true
-TextLabel_18.TextSize = 14.000
-TextLabel_18.TextWrapped = true
-
-no_2.Name = "no"
-no_2.Parent = Frame_6
-no_2.AnchorPoint = Vector2.new(0.5, 0.5)
-no_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-no_2.BackgroundTransparency = 1.000
-no_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-no_2.BorderSizePixel = 0
-no_2.Position = UDim2.new(0.5, 0, 0.5, 0)
-no_2.Size = UDim2.new(0.310000002, 0, 1, 0)
-no_2.ZIndex = 3
-no_2.Image = "rbxassetid://89175572380749"
-no_2.ImageColor3 = Color3.fromRGB(118, 118, 118)
-no_2.ImageRectOffset = Vector2.new(4, 4)
-no_2.ImageRectSize = Vector2.new(192, 192)
-no_2.ScaleType = Enum.ScaleType.Slice
-no_2.SliceCenter = Rect.new(96, 96, 96, 96)
-
-TextLabel_19.Parent = no_2
-TextLabel_19.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_19.BackgroundTransparency = 1.000
-TextLabel_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_19.BorderSizePixel = 0
-TextLabel_19.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_19.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_19.ZIndex = 5
-TextLabel_19.Font = Enum.Font.GothamMedium
-TextLabel_19.Text = "Off"
-TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_19.TextScaled = true
-TextLabel_19.TextSize = 14.000
-TextLabel_19.TextWrapped = true
-
-desc_6.Name = "desc"
-desc_6.Parent = mobileCam
-desc_6.AnchorPoint = Vector2.new(0.5, 0.5)
-desc_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-desc_6.BackgroundTransparency = 1.000
-desc_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-desc_6.BorderSizePixel = 0
-desc_6.Position = UDim2.new(0.5, 0, 0.449999988, 0)
-desc_6.Size = UDim2.new(1, 0, 0.25, 0)
-desc_6.ZIndex = 5
-desc_6.Font = Enum.Font.Gotham
-desc_6.Text = "Locks your direction to the camera."
-desc_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-desc_6.TextScaled = true
-desc_6.TextSize = 14.000
-desc_6.TextWrapped = true
-
-inputTips.Name = "inputTips"
-inputTips.Parent = settings2
-inputTips.AnchorPoint = Vector2.new(0.5, 0.5)
-inputTips.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-inputTips.BackgroundTransparency = 1.000
-inputTips.BorderColor3 = Color3.fromRGB(27, 42, 53)
-inputTips.BorderSizePixel = 0
-inputTips.LayoutOrder = 2
-inputTips.Position = UDim2.new(0.5, 0, 0.5, 0)
-inputTips.Size = UDim2.new(1, 0, 0.25, 0)
-inputTips.Visible = false
-inputTips.ZIndex = 4
-
-Frame_7.Parent = inputTips
-Frame_7.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Frame_7.Position = UDim2.new(0.5, 0, 0.800000012, 0)
-Frame_7.Size = UDim2.new(1, 0, 0.400000006, 0)
-
-UIListLayout_15.Parent = Frame_7
-UIListLayout_15.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_15.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_15.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_15.VerticalAlignment = Enum.VerticalAlignment.Center
-UIListLayout_15.Padding = UDim.new(0.0299999993, 0)
-
-yes_3.Name = "yes"
-yes_3.Parent = Frame_7
-yes_3.AnchorPoint = Vector2.new(0.5, 0.5)
-yes_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yes_3.BackgroundTransparency = 1.000
-yes_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-yes_3.BorderSizePixel = 0
-yes_3.Position = UDim2.new(0.5, 0, 0.5, 0)
-yes_3.Size = UDim2.new(0.310000002, 0, 1, 0)
-yes_3.ZIndex = 3
-yes_3.Image = "rbxassetid://89175572380749"
-yes_3.ImageColor3 = Color3.fromRGB(134, 140, 255)
-yes_3.ImageRectOffset = Vector2.new(4, 4)
-yes_3.ImageRectSize = Vector2.new(192, 192)
-yes_3.ScaleType = Enum.ScaleType.Slice
-yes_3.SliceCenter = Rect.new(96, 96, 96, 96)
-
-TextLabel_20.Parent = yes_3
-TextLabel_20.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_20.BackgroundTransparency = 1.000
-TextLabel_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_20.BorderSizePixel = 0
-TextLabel_20.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_20.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_20.ZIndex = 5
-TextLabel_20.Font = Enum.Font.GothamBlack
-TextLabel_20.Text = "On"
-TextLabel_20.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_20.TextScaled = true
-TextLabel_20.TextSize = 14.000
-TextLabel_20.TextWrapped = true
-
-no_3.Name = "no"
-no_3.Parent = Frame_7
-no_3.AnchorPoint = Vector2.new(0.5, 0.5)
-no_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-no_3.BackgroundTransparency = 1.000
-no_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-no_3.BorderSizePixel = 0
-no_3.Position = UDim2.new(0.5, 0, 0.5, 0)
-no_3.Size = UDim2.new(0.310000002, 0, 1, 0)
-no_3.ZIndex = 3
-no_3.Image = "rbxassetid://89175572380749"
-no_3.ImageColor3 = Color3.fromRGB(118, 118, 118)
-no_3.ImageRectOffset = Vector2.new(4, 4)
-no_3.ImageRectSize = Vector2.new(192, 192)
-no_3.ScaleType = Enum.ScaleType.Slice
-no_3.SliceCenter = Rect.new(96, 96, 96, 96)
-
-TextLabel_21.Parent = no_3
-TextLabel_21.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_21.BackgroundTransparency = 1.000
-TextLabel_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_21.BorderSizePixel = 0
-TextLabel_21.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_21.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_21.ZIndex = 5
-TextLabel_21.Font = Enum.Font.GothamMedium
-TextLabel_21.Text = "Off"
-TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_21.TextScaled = true
-TextLabel_21.TextSize = 14.000
-TextLabel_21.TextWrapped = true
-
-desc_7.Name = "desc"
-desc_7.Parent = inputTips
-desc_7.AnchorPoint = Vector2.new(0.5, 0.5)
-desc_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-desc_7.BackgroundTransparency = 1.000
-desc_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-desc_7.BorderSizePixel = 0
-desc_7.Position = UDim2.new(0.5, 0, 0.449999988, 0)
-desc_7.Size = UDim2.new(1, 0, 0.25, 0)
-desc_7.ZIndex = 5
-desc_7.Font = Enum.Font.Gotham
-desc_7.Text = "Shows button commands on bottom-right of screen"
-desc_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-desc_7.TextScaled = true
-desc_7.TextSize = 14.000
-desc_7.TextWrapped = true
-
-title_3.Name = "title"
-title_3.Parent = inputTips
-title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-title_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-title_3.Position = UDim2.new(0, 0, 0.0250000004, 0)
-title_3.Size = UDim2.new(1, 0, 0.300000012, 0)
-
-name_7.Name = "name"
-name_7.Parent = title_3
-name_7.AnchorPoint = Vector2.new(0.5, 0.5)
-name_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-name_7.BackgroundTransparency = 1.000
-name_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-name_7.BorderSizePixel = 0
-name_7.LayoutOrder = 2
-name_7.Position = UDim2.new(0.5, 0, 0.200000003, 0)
-name_7.Size = UDim2.new(0.400000006, 0, 1, 0)
-name_7.ZIndex = 5
-name_7.Font = Enum.Font.GothamBold
-name_7.Text = "Input Tips"
-name_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-name_7.TextScaled = true
-name_7.TextSize = 14.000
-name_7.TextWrapped = true
-
-UIListLayout_16.Parent = title_3
-UIListLayout_16.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_16.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_16.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_16.VerticalAlignment = Enum.VerticalAlignment.Center
-UIListLayout_16.Padding = UDim.new(0.0199999996, 0)
-
-altSpecial.Name = "altSpecial"
-altSpecial.Parent = settings2
-altSpecial.AnchorPoint = Vector2.new(0.5, 0.5)
-altSpecial.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-altSpecial.BackgroundTransparency = 1.000
-altSpecial.BorderColor3 = Color3.fromRGB(27, 42, 53)
-altSpecial.BorderSizePixel = 0
-altSpecial.LayoutOrder = 1
-altSpecial.Position = UDim2.new(0.5, 0, 0.5, 0)
-altSpecial.Size = UDim2.new(1, 0, 0.25, 0)
-altSpecial.Visible = false
-altSpecial.ZIndex = 4
-
 name_8.Name = "name"
-name_8.Parent = altSpecial
+name_8.Parent = mobileCam
 name_8.AnchorPoint = Vector2.new(0.5, 0.5)
 name_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 name_8.BackgroundTransparency = 1.000
@@ -1711,25 +1761,25 @@ name_8.Position = UDim2.new(0.5, 0, 0.200000003, 0)
 name_8.Size = UDim2.new(0.800000012, 0, 0.300000012, 0)
 name_8.ZIndex = 5
 name_8.Font = Enum.Font.GothamBold
-name_8.Text = "Alternate Special Key"
+name_8.Text = "Camera Lock"
 name_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 name_8.TextScaled = true
 name_8.TextSize = 14.000
 name_8.TextWrapped = true
 
-Frame_8.Parent = altSpecial
+Frame_8.Parent = mobileCam
 Frame_8.AnchorPoint = Vector2.new(0.5, 0.5)
 Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Frame_8.Position = UDim2.new(0.5, 0, 0.800000012, 0)
 Frame_8.Size = UDim2.new(1, 0, 0.400000006, 0)
 
-UIListLayout_17.Parent = Frame_8
-UIListLayout_17.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout_17.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout_17.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_17.VerticalAlignment = Enum.VerticalAlignment.Center
-UIListLayout_17.Padding = UDim.new(0.0299999993, 0)
+UIListLayout_16.Parent = Frame_8
+UIListLayout_16.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_16.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_16.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_16.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_16.Padding = UDim.new(0.0299999993, 0)
 
 yes_4.Name = "yes"
 yes_4.Parent = Frame_8
@@ -1748,21 +1798,21 @@ yes_4.ImageRectSize = Vector2.new(192, 192)
 yes_4.ScaleType = Enum.ScaleType.Slice
 yes_4.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_22.Parent = yes_4
-TextLabel_22.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_22.BackgroundTransparency = 1.000
-TextLabel_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_22.BorderSizePixel = 0
-TextLabel_22.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_22.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_22.ZIndex = 5
-TextLabel_22.Font = Enum.Font.GothamBlack
-TextLabel_22.Text = "On"
-TextLabel_22.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_22.TextScaled = true
-TextLabel_22.TextSize = 14.000
-TextLabel_22.TextWrapped = true
+TextLabel_23.Parent = yes_4
+TextLabel_23.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_23.BorderSizePixel = 0
+TextLabel_23.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_23.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_23.ZIndex = 5
+TextLabel_23.Font = Enum.Font.GothamBlack
+TextLabel_23.Text = "On"
+TextLabel_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_23.TextScaled = true
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextWrapped = true
 
 no_4.Name = "no"
 no_4.Parent = Frame_8
@@ -1781,24 +1831,24 @@ no_4.ImageRectSize = Vector2.new(192, 192)
 no_4.ScaleType = Enum.ScaleType.Slice
 no_4.SliceCenter = Rect.new(96, 96, 96, 96)
 
-TextLabel_23.Parent = no_4
-TextLabel_23.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_23.BackgroundTransparency = 1.000
-TextLabel_23.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_23.BorderSizePixel = 0
-TextLabel_23.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_23.Size = UDim2.new(0.899999976, 0, 0.5, 0)
-TextLabel_23.ZIndex = 5
-TextLabel_23.Font = Enum.Font.GothamMedium
-TextLabel_23.Text = "Off"
-TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_23.TextScaled = true
-TextLabel_23.TextSize = 14.000
-TextLabel_23.TextWrapped = true
+TextLabel_24.Parent = no_4
+TextLabel_24.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_24.BorderSizePixel = 0
+TextLabel_24.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_24.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_24.ZIndex = 5
+TextLabel_24.Font = Enum.Font.GothamMedium
+TextLabel_24.Text = "Off"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextScaled = true
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextWrapped = true
 
 desc_8.Name = "desc"
-desc_8.Parent = altSpecial
+desc_8.Parent = mobileCam
 desc_8.AnchorPoint = Vector2.new(0.5, 0.5)
 desc_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 desc_8.BackgroundTransparency = 1.000
@@ -1808,11 +1858,408 @@ desc_8.Position = UDim2.new(0.5, 0, 0.449999988, 0)
 desc_8.Size = UDim2.new(1, 0, 0.25, 0)
 desc_8.ZIndex = 5
 desc_8.Font = Enum.Font.Gotham
-desc_8.Text = "When mouse is locked, right-click can be used for special move"
+desc_8.Text = "Locks your direction to the camera."
 desc_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 desc_8.TextScaled = true
 desc_8.TextSize = 14.000
 desc_8.TextWrapped = true
+
+inputTips.Name = "inputTips"
+inputTips.Parent = settings2
+inputTips.AnchorPoint = Vector2.new(0.5, 0.5)
+inputTips.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+inputTips.BackgroundTransparency = 1.000
+inputTips.BorderColor3 = Color3.fromRGB(27, 42, 53)
+inputTips.BorderSizePixel = 0
+inputTips.LayoutOrder = 2
+inputTips.Position = UDim2.new(0.5, 0, 0.5, 0)
+inputTips.Size = UDim2.new(1, 0, 0.25, 0)
+inputTips.Visible = false
+inputTips.ZIndex = 4
+
+Frame_9.Parent = inputTips
+Frame_9.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_9.Position = UDim2.new(0.5, 0, 0.800000012, 0)
+Frame_9.Size = UDim2.new(1, 0, 0.400000006, 0)
+
+UIListLayout_17.Parent = Frame_9
+UIListLayout_17.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_17.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_17.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_17.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_17.Padding = UDim.new(0.0299999993, 0)
+
+yes_5.Name = "yes"
+yes_5.Parent = Frame_9
+yes_5.AnchorPoint = Vector2.new(0.5, 0.5)
+yes_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yes_5.BackgroundTransparency = 1.000
+yes_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+yes_5.BorderSizePixel = 0
+yes_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+yes_5.Size = UDim2.new(0.310000002, 0, 1, 0)
+yes_5.ZIndex = 3
+yes_5.Image = "rbxassetid://89175572380749"
+yes_5.ImageColor3 = Color3.fromRGB(134, 140, 255)
+yes_5.ImageRectOffset = Vector2.new(4, 4)
+yes_5.ImageRectSize = Vector2.new(192, 192)
+yes_5.ScaleType = Enum.ScaleType.Slice
+yes_5.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_25.Parent = yes_5
+TextLabel_25.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_25.BorderSizePixel = 0
+TextLabel_25.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_25.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_25.ZIndex = 5
+TextLabel_25.Font = Enum.Font.GothamBlack
+TextLabel_25.Text = "On"
+TextLabel_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_25.TextScaled = true
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextWrapped = true
+
+no_5.Name = "no"
+no_5.Parent = Frame_9
+no_5.AnchorPoint = Vector2.new(0.5, 0.5)
+no_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+no_5.BackgroundTransparency = 1.000
+no_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+no_5.BorderSizePixel = 0
+no_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+no_5.Size = UDim2.new(0.310000002, 0, 1, 0)
+no_5.ZIndex = 3
+no_5.Image = "rbxassetid://89175572380749"
+no_5.ImageColor3 = Color3.fromRGB(118, 118, 118)
+no_5.ImageRectOffset = Vector2.new(4, 4)
+no_5.ImageRectSize = Vector2.new(192, 192)
+no_5.ScaleType = Enum.ScaleType.Slice
+no_5.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_26.Parent = no_5
+TextLabel_26.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_26.BorderSizePixel = 0
+TextLabel_26.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_26.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_26.ZIndex = 5
+TextLabel_26.Font = Enum.Font.GothamMedium
+TextLabel_26.Text = "Off"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextScaled = true
+TextLabel_26.TextSize = 14.000
+TextLabel_26.TextWrapped = true
+
+desc_9.Name = "desc"
+desc_9.Parent = inputTips
+desc_9.AnchorPoint = Vector2.new(0.5, 0.5)
+desc_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+desc_9.BackgroundTransparency = 1.000
+desc_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+desc_9.BorderSizePixel = 0
+desc_9.Position = UDim2.new(0.5, 0, 0.449999988, 0)
+desc_9.Size = UDim2.new(1, 0, 0.25, 0)
+desc_9.ZIndex = 5
+desc_9.Font = Enum.Font.Gotham
+desc_9.Text = "Shows button commands on bottom-right of screen"
+desc_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+desc_9.TextScaled = true
+desc_9.TextSize = 14.000
+desc_9.TextWrapped = true
+
+title_3.Name = "title"
+title_3.Parent = inputTips
+title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+title_3.Position = UDim2.new(0, 0, 0.0250000004, 0)
+title_3.Size = UDim2.new(1, 0, 0.300000012, 0)
+
+name_9.Name = "name"
+name_9.Parent = title_3
+name_9.AnchorPoint = Vector2.new(0.5, 0.5)
+name_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_9.BackgroundTransparency = 1.000
+name_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+name_9.BorderSizePixel = 0
+name_9.LayoutOrder = 2
+name_9.Position = UDim2.new(0.5, 0, 0.200000003, 0)
+name_9.Size = UDim2.new(0.400000006, 0, 1, 0)
+name_9.ZIndex = 5
+name_9.Font = Enum.Font.GothamBold
+name_9.Text = "Input Tips"
+name_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+name_9.TextScaled = true
+name_9.TextSize = 14.000
+name_9.TextWrapped = true
+
+UIListLayout_18.Parent = title_3
+UIListLayout_18.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_18.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_18.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_18.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_18.Padding = UDim.new(0.0199999996, 0)
+
+altSpecial.Name = "altSpecial"
+altSpecial.Parent = settings2
+altSpecial.AnchorPoint = Vector2.new(0.5, 0.5)
+altSpecial.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+altSpecial.BackgroundTransparency = 1.000
+altSpecial.BorderColor3 = Color3.fromRGB(27, 42, 53)
+altSpecial.BorderSizePixel = 0
+altSpecial.LayoutOrder = 1
+altSpecial.Position = UDim2.new(0.5, 0, 0.5, 0)
+altSpecial.Size = UDim2.new(1, 0, 0.25, 0)
+altSpecial.Visible = false
+altSpecial.ZIndex = 4
+
+name_10.Name = "name"
+name_10.Parent = altSpecial
+name_10.AnchorPoint = Vector2.new(0.5, 0.5)
+name_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_10.BackgroundTransparency = 1.000
+name_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+name_10.BorderSizePixel = 0
+name_10.Position = UDim2.new(0.5, 0, 0.200000003, 0)
+name_10.Size = UDim2.new(0.800000012, 0, 0.300000012, 0)
+name_10.ZIndex = 5
+name_10.Font = Enum.Font.GothamBold
+name_10.Text = "Alternate Special Key"
+name_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+name_10.TextScaled = true
+name_10.TextSize = 14.000
+name_10.TextWrapped = true
+
+Frame_10.Parent = altSpecial
+Frame_10.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_10.Position = UDim2.new(0.5, 0, 0.800000012, 0)
+Frame_10.Size = UDim2.new(1, 0, 0.400000006, 0)
+
+UIListLayout_19.Parent = Frame_10
+UIListLayout_19.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_19.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_19.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_19.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_19.Padding = UDim.new(0.0299999993, 0)
+
+yes_6.Name = "yes"
+yes_6.Parent = Frame_10
+yes_6.AnchorPoint = Vector2.new(0.5, 0.5)
+yes_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yes_6.BackgroundTransparency = 1.000
+yes_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+yes_6.BorderSizePixel = 0
+yes_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+yes_6.Size = UDim2.new(0.310000002, 0, 1, 0)
+yes_6.ZIndex = 3
+yes_6.Image = "rbxassetid://89175572380749"
+yes_6.ImageColor3 = Color3.fromRGB(134, 140, 255)
+yes_6.ImageRectOffset = Vector2.new(4, 4)
+yes_6.ImageRectSize = Vector2.new(192, 192)
+yes_6.ScaleType = Enum.ScaleType.Slice
+yes_6.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_27.Parent = yes_6
+TextLabel_27.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_27.BorderSizePixel = 0
+TextLabel_27.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_27.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_27.ZIndex = 5
+TextLabel_27.Font = Enum.Font.GothamBlack
+TextLabel_27.Text = "On"
+TextLabel_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_27.TextScaled = true
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextWrapped = true
+
+no_6.Name = "no"
+no_6.Parent = Frame_10
+no_6.AnchorPoint = Vector2.new(0.5, 0.5)
+no_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+no_6.BackgroundTransparency = 1.000
+no_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+no_6.BorderSizePixel = 0
+no_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+no_6.Size = UDim2.new(0.310000002, 0, 1, 0)
+no_6.ZIndex = 3
+no_6.Image = "rbxassetid://89175572380749"
+no_6.ImageColor3 = Color3.fromRGB(118, 118, 118)
+no_6.ImageRectOffset = Vector2.new(4, 4)
+no_6.ImageRectSize = Vector2.new(192, 192)
+no_6.ScaleType = Enum.ScaleType.Slice
+no_6.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_28.Parent = no_6
+TextLabel_28.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_28.BorderSizePixel = 0
+TextLabel_28.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_28.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_28.ZIndex = 5
+TextLabel_28.Font = Enum.Font.GothamMedium
+TextLabel_28.Text = "Off"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextScaled = true
+TextLabel_28.TextSize = 14.000
+TextLabel_28.TextWrapped = true
+
+desc_10.Name = "desc"
+desc_10.Parent = altSpecial
+desc_10.AnchorPoint = Vector2.new(0.5, 0.5)
+desc_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+desc_10.BackgroundTransparency = 1.000
+desc_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+desc_10.BorderSizePixel = 0
+desc_10.Position = UDim2.new(0.5, 0, 0.449999988, 0)
+desc_10.Size = UDim2.new(1, 0, 0.25, 0)
+desc_10.ZIndex = 5
+desc_10.Font = Enum.Font.Gotham
+desc_10.Text = "When mouse is locked, right-click can be used for special move"
+desc_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+desc_10.TextScaled = true
+desc_10.TextSize = 14.000
+desc_10.TextWrapped = true
+
+TrowelWeld.Name = "TrowelWeld"
+TrowelWeld.Parent = settings2
+TrowelWeld.AnchorPoint = Vector2.new(0.5, 0.5)
+TrowelWeld.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TrowelWeld.BackgroundTransparency = 1.000
+TrowelWeld.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TrowelWeld.BorderSizePixel = 0
+TrowelWeld.LayoutOrder = 1
+TrowelWeld.Position = UDim2.new(0.5, 0, 0.5, 0)
+TrowelWeld.Size = UDim2.new(1, 0, 0.25, 0)
+TrowelWeld.ZIndex = 4
+
+name_11.Name = "name"
+name_11.Parent = TrowelWeld
+name_11.AnchorPoint = Vector2.new(0.5, 0.5)
+name_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_11.BackgroundTransparency = 1.000
+name_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+name_11.BorderSizePixel = 0
+name_11.Position = UDim2.new(0.5, 0, 0.200000003, 0)
+name_11.Size = UDim2.new(0.800000012, 0, 0.300000012, 0)
+name_11.ZIndex = 5
+name_11.Font = Enum.Font.GothamBold
+name_11.Text = "Trowel Weld"
+name_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+name_11.TextScaled = true
+name_11.TextSize = 14.000
+name_11.TextWrapped = true
+
+Frame_11.Parent = TrowelWeld
+Frame_11.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_11.Position = UDim2.new(0.5, 0, 0.800000012, 0)
+Frame_11.Size = UDim2.new(1, 0, 0.400000006, 0)
+
+UIListLayout_20.Parent = Frame_11
+UIListLayout_20.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_20.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_20.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_20.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_20.Padding = UDim.new(0.0299999993, 0)
+
+yes_7.Name = "yes"
+yes_7.Parent = Frame_11
+yes_7.AnchorPoint = Vector2.new(0.5, 0.5)
+yes_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+yes_7.BackgroundTransparency = 1.000
+yes_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+yes_7.BorderSizePixel = 0
+yes_7.LayoutOrder = 2
+yes_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+yes_7.Size = UDim2.new(0.310000002, 0, 1, 0)
+yes_7.ZIndex = 3
+yes_7.Image = "rbxassetid://89175572380749"
+yes_7.ImageColor3 = Color3.fromRGB(118, 118, 118)
+yes_7.ImageRectOffset = Vector2.new(4, 4)
+yes_7.ImageRectSize = Vector2.new(192, 192)
+yes_7.ScaleType = Enum.ScaleType.Slice
+yes_7.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_29.Parent = yes_7
+TextLabel_29.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_29.BorderSizePixel = 0
+TextLabel_29.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_29.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_29.ZIndex = 5
+TextLabel_29.Font = Enum.Font.Gotham
+TextLabel_29.Text = "On"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextScaled = true
+TextLabel_29.TextSize = 14.000
+TextLabel_29.TextWrapped = true
+
+no_7.Name = "no"
+no_7.Parent = Frame_11
+no_7.AnchorPoint = Vector2.new(0.5, 0.5)
+no_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+no_7.BackgroundTransparency = 1.000
+no_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+no_7.BorderSizePixel = 0
+no_7.LayoutOrder = 3
+no_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+no_7.Size = UDim2.new(0.310000002, 0, 1, 0)
+no_7.ZIndex = 3
+no_7.Image = "rbxassetid://89175572380749"
+no_7.ImageColor3 = Color3.fromRGB(134, 140, 255)
+no_7.ImageRectOffset = Vector2.new(4, 4)
+no_7.ImageRectSize = Vector2.new(192, 192)
+no_7.ScaleType = Enum.ScaleType.Slice
+no_7.SliceCenter = Rect.new(96, 96, 96, 96)
+
+TextLabel_30.Parent = no_7
+TextLabel_30.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_30.BorderSizePixel = 0
+TextLabel_30.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_30.Size = UDim2.new(0.899999976, 0, 0.5, 0)
+TextLabel_30.ZIndex = 5
+TextLabel_30.Font = Enum.Font.GothamBold
+TextLabel_30.Text = "Off"
+TextLabel_30.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_30.TextScaled = true
+TextLabel_30.TextSize = 14.000
+TextLabel_30.TextWrapped = true
+
+desc_11.Name = "desc"
+desc_11.Parent = TrowelWeld
+desc_11.AnchorPoint = Vector2.new(0.5, 0.5)
+desc_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+desc_11.BackgroundTransparency = 1.000
+desc_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+desc_11.BorderSizePixel = 0
+desc_11.Position = UDim2.new(0.5, 0, 0.449999988, 0)
+desc_11.Size = UDim2.new(1, 0, 0.25, 0)
+desc_11.ZIndex = 5
+desc_11.Font = Enum.Font.Gotham
+desc_11.Text = "Welds trowels to the nearest part."
+desc_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+desc_11.TextScaled = true
+desc_11.TextSize = 14.000
+desc_11.TextWrapped = true
 
 SettingsError.Name = "SettingsError"
 SettingsError.Parent = Settings_Main
@@ -1830,21 +2277,21 @@ SettingsError.ImageTransparency = 0.100
 SettingsError.ScaleType = Enum.ScaleType.Slice
 SettingsError.SliceCenter = Rect.new(5, 5, 15, 15)
 
-TextLabel_24.Parent = SettingsError
-TextLabel_24.AnchorPoint = Vector2.new(0.5, 0.5)
-TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_24.BackgroundTransparency = 1.000
-TextLabel_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_24.BorderSizePixel = 0
-TextLabel_24.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextLabel_24.Size = UDim2.new(0.949999988, 0, 0.649999976, 0)
-TextLabel_24.ZIndex = 10
-TextLabel_24.Font = Enum.Font.Gotham
-TextLabel_24.Text = "Not enough Crowns!"
-TextLabel_24.TextColor3 = Color3.fromRGB(255, 74, 77)
-TextLabel_24.TextScaled = true
-TextLabel_24.TextSize = 14.000
-TextLabel_24.TextWrapped = true
+TextLabel_31.Parent = SettingsError
+TextLabel_31.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.BackgroundTransparency = 1.000
+TextLabel_31.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_31.BorderSizePixel = 0
+TextLabel_31.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_31.Size = UDim2.new(0.949999988, 0, 0.649999976, 0)
+TextLabel_31.ZIndex = 10
+TextLabel_31.Font = Enum.Font.Gotham
+TextLabel_31.Text = "Not enough Crowns!"
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 74, 77)
+TextLabel_31.TextScaled = true
+TextLabel_31.TextSize = 14.000
+TextLabel_31.TextWrapped = true
 
 Exploit.Name = "Exploit"
 Exploit.Parent = ExploitUI
@@ -1897,15 +2344,26 @@ UIAspectRatioConstraint_13.Parent = Exploit
 
 -- Scripts:
 
-local function JXGH_fake_script() -- ExploitUI.Handler 
+local function FLLYY_fake_script() -- ExploitUI.Handler 
 	local script = Instance.new('LocalScript', ExploitUI)
 
 	local player = game.Players.LocalPlayer
 	local ui = script.Parent
 	local uis = game:GetService("UserInputService")
+	local camera = workspace.CurrentCamera
+	local weldTrowels = false
 	
 	local Blacklists = {}
 	local Connections = {}
+	local LogbookConnections = {}
+	
+	local function rayResult(x, y)
+		local params = RaycastParams.new()
+		params.FilterDescendantsInstances = {} -- anything you want, for example the player's character, the ray filters through these
+		params.FilterType = Enum.RaycastFilterType.Exclude -- choose exclude or include
+		local unitRay = camera:ScreenPointToRay(x, y) -- :ViewportPointToRay() is another choice
+		return workspace:Raycast(unitRay.Origin, unitRay.Direction * 100, params) -- 500 is how far to raycast
+	end
 	
 	local Names = {
 		["Stock"] = "BrickConstruction",
@@ -1971,7 +2429,18 @@ local function JXGH_fake_script() -- ExploitUI.Handler
 						if (uis:GetFocusedTextBox()) then
 							return; -- make sure player's not chatting!
 						end
-						if input.KeyCode == Enum.KeyCode.Q then
+						if input.KeyCode == Enum.KeyCode.Q and weldTrowels == true then
+							local Mouse = game.Players.LocalPlayer:GetMouse()
+							local raycastResult = rayResult(Mouse.X, Mouse.Y)
+							if not raycastResult then return end
+							local ohString1 = "Make" .. Names[v.Name]
+							local ohVector32 = game.Players.LocalPlayer:GetMouse().Hit.Position
+							local ohVector33 = Vector3.new(0, 1, 0)
+							local ohNumber4 = 0
+							local ohInstance5 = raycastResult.Instance
+	
+							game:GetService("ReplicatedStorage").SIGNAL_REMOTE:FireServer(ohString1, ohVector32, ohVector33, ohNumber4, ohInstance5)
+						elseif input.KeyCode == Enum.KeyCode.Q and weldTrowels == false then
 							local ohString1 = "Make" .. Names[v.Name]
 							local ohVector32 = game.Players.LocalPlayer:GetMouse().Hit.Position
 							local ohVector33 = Vector3.new(0, 1, 0)
@@ -2018,6 +2487,34 @@ local function JXGH_fake_script() -- ExploitUI.Handler
 		end
 	end
 	
+	local function SpawnRemote()
+		while wait() do
+			local args = {
+				[1] = "CreateRemoteBomb",
+				[2] = "Remote Detonator",
+				[3] = game.Players.LocalPlayer:GetMouse().Hit.Position,
+				[4] = game.Players.LocalPlayer:GetMouse().Hit.Position,
+				[5] = false
+			}
+	
+			game:GetService("ReplicatedStorage"):WaitForChild("SIGNAL_REMOTE"):FireServer(unpack(args))
+		end
+	end
+	
+	local function SpawnChargedRemote()
+		while wait() do
+			local args = {
+				[1] = "CreateRemoteBomb",
+				[2] = "Remote Detonator",
+				[3] = game.Players.LocalPlayer:GetMouse().Hit.Position,
+				[4] = game.Players.LocalPlayer:GetMouse().Hit.Position,
+				[5] = true
+			}
+	
+			game:GetService("ReplicatedStorage"):WaitForChild("SIGNAL_REMOTE"):FireServer(unpack(args))
+		end
+	end
+	
 	local Sticky = ui.Settings_Main.settings1.StickyBomb.Frame
 	for i,v in Sticky:GetChildren() do
 		if v:IsA("ImageButton") and not table.find(Blacklists, v.Name) then
@@ -2043,5 +2540,107 @@ local function JXGH_fake_script() -- ExploitUI.Handler
 			end)
 		end
 	end
+	
+	local Remote = ui.Settings_Main.settings1.Remote.Frame
+	for i,v in Remote:GetChildren() do
+		if v:IsA("ImageButton") and not table.find(Blacklists, v.Name) then
+			v.Activated:Connect(function()
+				if v.TextLabel.TextColor3 == Color3.new(1,1,1) then
+					if remotespawn then
+						task.cancel(remotespawn)
+					end
+					if v.Name == "yes" then
+						remotespawn = task.spawn(SpawnRemote)
+					elseif v.Name == "yesCharged" then
+						remotespawn = task.spawn(SpawnChargedRemote)
+					end
+					turnOn(v)
+					for i,s in Remote:GetChildren() do
+						if s:IsA("ImageButton") and s.Name ~= v.Name then
+							turnOff(s)
+						end
+					end
+				else
+					turnOff(v)
+				end
+			end)
+		end
+	end
+	
+	local function BuyTool(s)
+		print(s)
+		local tool = s.Name
+		local args = {
+			[1] = "BuyTool",
+			[2] = tool
+		}
+	
+		game:GetService("ReplicatedStorage"):WaitForChild("SIGNAL_REMOTE"):FireServer(unpack(args))
+	end
+	
+	local book = ui.Settings_Main.settings1.LogbookBuy.Frame
+	for i,v in book:GetChildren() do
+		if v:IsA("ImageButton") and not table.find(Blacklists, v.Name) then
+			v.Activated:Connect(function()
+				if v.TextLabel.TextColor3 == Color3.new(1,1,1) then
+					turnOn(v)
+					print("Turning on")
+					if v.Name == "yes" then
+						for i,s in player.PlayerGui.Logbook.Log_Main.LogItems.Tools:GetChildren() do
+							if s:IsA("ImageButton") then
+								s.Visible = true
+								local connect = s.Activated:Connect(function()
+									BuyTool(s)
+								end)
+								table.insert(LogbookConnections, connect)
+							end
+						end
+						for i,s in player.PlayerGui.Logbook.Log_Main.LogItems.Stickers:GetChildren() do
+							if s:IsA("ImageButton") then
+								local connect = s.Activated:Connect(function()
+									print(s)
+								end)
+								table.insert(LogbookConnections, connect)
+							end
+						end
+					elseif v.Name == "no" then
+						for i,s in LogbookConnections do
+							s:Disconnect()
+						end
+					end
+					for i,s in book:GetChildren() do
+						if s:IsA("ImageButton") and s.Name ~= v.Name then
+							turnOff(s)
+						end
+					end
+				else
+					turnOff(v)
+				end
+			end)
+		end
+	end
+	
+	local trowelcool = ui.Settings_Main.settings2.TrowelWeld.Frame
+	for i,v in trowelcool:GetChildren() do
+		if v:IsA("ImageButton") and not table.find(Blacklists, v.Name) then
+			v.Activated:Connect(function()
+				if v.TextLabel.TextColor3 == Color3.new(1,1,1) then
+					if v.Name == "yes" then
+						weldTrowels = true
+					elseif v.Name == "no" then
+						weldTrowels = false
+					end
+					turnOn(v)
+					for i,s in trowelcool:GetChildren() do
+						if s:IsA("ImageButton") and s.Name ~= v.Name then
+							turnOff(s)
+						end
+					end
+				else
+					turnOff(v)
+				end
+			end)
+		end
+	end
 end
-coroutine.wrap(JXGH_fake_script)()
+coroutine.wrap(FLLYY_fake_script)()
