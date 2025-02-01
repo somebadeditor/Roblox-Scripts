@@ -3123,7 +3123,7 @@ ExploitUI.UIAspectRatioConstraint_20.Parent = ExploitUI.Exploit
 
 -- Scripts:
 
-local function MWIFXJM_fake_script() -- ExploitUI.ExploitUI.Handler 
+local function TESF_fake_script() -- ExploitUI.ExploitUI.Handler 
 	local script = Instance.new('LocalScript', ExploitUI.ExploitUI)
 
 	local player = game.Players.LocalPlayer
@@ -3422,7 +3422,7 @@ local function MWIFXJM_fake_script() -- ExploitUI.ExploitUI.Handler
 		end
 	end
 	
-	local shadbomb = ui.Settings_Main.settings2.TrowelWeld.Frame
+	local shadbomb = ui.Settings_Main.settings1.ShadowPlant.Frame
 	for i,v in shadbomb:GetChildren() do
 		if v:IsA("ImageButton") and not table.find(Blacklists, v.Name) then
 			v.Activated:Connect(function()
@@ -3435,11 +3435,10 @@ local function MWIFXJM_fake_script() -- ExploitUI.ExploitUI.Handler
 								local ohString3 = "plant"
 	
 								game:GetService("ReplicatedStorage").SIGNAL_REMOTE:FireServer(ohString1, ohInstance2, ohString3)
-							elseif Input.UserInputType == Enum.UserInputType.MouseButton2 and InputService.MouseBehavior == Enum.MouseBehavior.LockCenter and not _gameProcessed then
-								if Input.KeyCode == Enum.KeyCode.R and not _gameProcessed then
-									local ohString1 = "PerformToolFunction"
-									local ohInstance2 = player.Character["Shadow Bomb"]
-									local ohString3 = "plant"
+							elseif Input.UserInputType == Enum.UserInputType.MouseButton2 and uis.MouseBehavior == Enum.MouseBehavior.LockCenter and not _gameProcessed then
+								local ohString1 = "PerformToolFunction"
+								local ohInstance2 = player.Character["Shadow Bomb"]
+								local ohString3 = "plant"
 	
 								game:GetService("ReplicatedStorage").SIGNAL_REMOTE:FireServer(ohString1, ohInstance2, ohString3)
 							end
@@ -3462,4 +3461,4 @@ local function MWIFXJM_fake_script() -- ExploitUI.ExploitUI.Handler
 		end
 	end
 end
-coroutine.wrap(MWIFXJM_fake_script)()
+coroutine.wrap(TESF_fake_script)()
