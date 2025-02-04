@@ -3729,6 +3729,25 @@ local script = G2L["103"];
 		end
 	end
 	
+	ui.Exploits_Main:GetPropertyChangedSignal("Visible"):Connect(function()
+		if ui.Exploits_Main.Visible == true then
+			for i,v in ui.Exploits_Main:GetChildren() do
+				if v:IsA("Frame") and v.Visible == true and table.find(settings, v.Name) then
+					for i,s in v.settings1:GetChildren() do
+						if s:IsA("Frame") then
+							s.Visible = true
+						end
+					end
+					for i,s in v.settings2:GetChildren() do
+						if s:IsA("Frame") then
+							s.Visible = true
+						end
+					end
+				end
+			end
+		end
+	end)
+	
 	function turnOn(Button:ImageButton)
 		print(Button)
 		Button.ImageColor3 = Color3.new(0.52549, 0.54902, 1)
