@@ -2479,183 +2479,183 @@ G2L["b0"]["Name"] = [[desc]];
 G2L["b0"]["Position"] = UDim2.new(0.5, 0, 0.45, 0);
 
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.settings2
-G2L["b1"] = Instance.new("Frame", G2L["a3"]);
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy
+G2L["b1"] = Instance.new("Frame", G2L["a4"]);
+G2L["b1"]["Visible"] = false;
 G2L["b1"]["ZIndex"] = 4;
 G2L["b1"]["BorderSizePixel"] = 0;
 G2L["b1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["b1"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["b1"]["Size"] = UDim2.new(0.45, 0, 0.75, 0);
-G2L["b1"]["Position"] = UDim2.new(0.75, 0, 0.48, 0);
+G2L["b1"]["Size"] = UDim2.new(1, 0, 0.25, 0);
+G2L["b1"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 G2L["b1"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["b1"]["Name"] = [[settings2]];
+G2L["b1"]["Name"] = [[LogbookBuy]];
+G2L["b1"]["LayoutOrder"] = 1;
 G2L["b1"]["BackgroundTransparency"] = 1;
 
+-- Tags
+CollectionService:AddTag(G2L["b1"], [[NotVisibleOnPC]]);
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.settings2.UIListLayout
-G2L["b2"] = Instance.new("UIListLayout", G2L["b1"]);
-G2L["b2"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
-G2L["b2"]["Padding"] = UDim.new(0.3, 0);
-G2L["b2"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy.name
+G2L["b2"] = Instance.new("TextLabel", G2L["b1"]);
+G2L["b2"]["TextWrapped"] = true;
+G2L["b2"]["ZIndex"] = 5;
+G2L["b2"]["BorderSizePixel"] = 0;
+G2L["b2"]["TextSize"] = 14;
+G2L["b2"]["TextScaled"] = true;
+G2L["b2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b2"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["b2"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b2"]["BackgroundTransparency"] = 1;
+G2L["b2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["b2"]["Size"] = UDim2.new(0.8, 0, 0.3, 0);
+G2L["b2"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["b2"]["Text"] = [[Buy items from logbook]];
+G2L["b2"]["Name"] = [[name]];
+G2L["b2"]["Position"] = UDim2.new(0.5, 0, 0.2, 0);
 
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy
-G2L["b3"] = Instance.new("Frame", G2L["a3"]);
-G2L["b3"]["Visible"] = false;
-G2L["b3"]["ZIndex"] = 4;
-G2L["b3"]["BorderSizePixel"] = 0;
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy.Frame
+G2L["b3"] = Instance.new("Frame", G2L["b1"]);
 G2L["b3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["b3"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["b3"]["Size"] = UDim2.new(1, 0, 0.25, 0);
-G2L["b3"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["b3"]["Size"] = UDim2.new(1, 0, 0.4, 0);
+G2L["b3"]["Position"] = UDim2.new(0.5, 0, 0.8, 0);
 G2L["b3"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["b3"]["Name"] = [[LogbookBuy]];
-G2L["b3"]["LayoutOrder"] = 1;
-G2L["b3"]["BackgroundTransparency"] = 1;
-
--- Tags
-CollectionService:AddTag(G2L["b3"], [[NotVisibleOnPC]]);
-
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy.name
-G2L["b4"] = Instance.new("TextLabel", G2L["b3"]);
-G2L["b4"]["TextWrapped"] = true;
-G2L["b4"]["ZIndex"] = 5;
-G2L["b4"]["BorderSizePixel"] = 0;
-G2L["b4"]["TextSize"] = 14;
-G2L["b4"]["TextScaled"] = true;
-G2L["b4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b4"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["b4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b4"]["BackgroundTransparency"] = 1;
-G2L["b4"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["b4"]["Size"] = UDim2.new(0.8, 0, 0.3, 0);
-G2L["b4"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["b4"]["Text"] = [[Buy items from logbook]];
-G2L["b4"]["Name"] = [[name]];
-G2L["b4"]["Position"] = UDim2.new(0.5, 0, 0.2, 0);
 
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy.Frame
-G2L["b5"] = Instance.new("Frame", G2L["b3"]);
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy.Frame.UIListLayout
+G2L["b4"] = Instance.new("UIListLayout", G2L["b3"]);
+G2L["b4"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["b4"]["Padding"] = UDim.new(0.03, 0);
+G2L["b4"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+G2L["b4"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["b4"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy.Frame.yes
+G2L["b5"] = Instance.new("ImageButton", G2L["b3"]);
+G2L["b5"]["BorderSizePixel"] = 0;
+G2L["b5"]["SliceCenter"] = Rect.new(96, 96, 96, 96);
+G2L["b5"]["ScaleType"] = Enum.ScaleType.Slice;
 G2L["b5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b5"]["ImageColor3"] = Color3.fromRGB(119, 119, 119);
+G2L["b5"]["LayoutOrder"] = 2;
+G2L["b5"]["ZIndex"] = 3;
 G2L["b5"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["b5"]["Size"] = UDim2.new(1, 0, 0.4, 0);
-G2L["b5"]["Position"] = UDim2.new(0.5, 0, 0.8, 0);
+G2L["b5"]["Image"] = [[rbxassetid://89175572380749]];
+G2L["b5"]["ImageRectSize"] = Vector2.new(192, 192);
+G2L["b5"]["Size"] = UDim2.new(0.31, 0, 1, 0);
+G2L["b5"]["BackgroundTransparency"] = 1;
+G2L["b5"]["Name"] = [[yes]];
 G2L["b5"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["b5"]["ImageRectOffset"] = Vector2.new(4, 4);
+G2L["b5"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy.Frame.UIListLayout
-G2L["b6"] = Instance.new("UIListLayout", G2L["b5"]);
-G2L["b6"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
-G2L["b6"]["Padding"] = UDim.new(0.03, 0);
-G2L["b6"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
-G2L["b6"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
-G2L["b6"]["FillDirection"] = Enum.FillDirection.Horizontal;
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy.Frame.yes.TextLabel
+G2L["b6"] = Instance.new("TextLabel", G2L["b5"]);
+G2L["b6"]["TextWrapped"] = true;
+G2L["b6"]["ZIndex"] = 5;
+G2L["b6"]["BorderSizePixel"] = 0;
+G2L["b6"]["TextSize"] = 14;
+G2L["b6"]["TextScaled"] = true;
+G2L["b6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b6"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["b6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b6"]["BackgroundTransparency"] = 1;
+G2L["b6"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["b6"]["Size"] = UDim2.new(0.9, 0, 0.5, 0);
+G2L["b6"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["b6"]["Text"] = [[On]];
+G2L["b6"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy.Frame.yes
-G2L["b7"] = Instance.new("ImageButton", G2L["b5"]);
-G2L["b7"]["BorderSizePixel"] = 0;
-G2L["b7"]["SliceCenter"] = Rect.new(96, 96, 96, 96);
-G2L["b7"]["ScaleType"] = Enum.ScaleType.Slice;
-G2L["b7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b7"]["ImageColor3"] = Color3.fromRGB(119, 119, 119);
-G2L["b7"]["LayoutOrder"] = 2;
-G2L["b7"]["ZIndex"] = 3;
-G2L["b7"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["b7"]["Image"] = [[rbxassetid://89175572380749]];
-G2L["b7"]["ImageRectSize"] = Vector2.new(192, 192);
-G2L["b7"]["Size"] = UDim2.new(0.31, 0, 1, 0);
-G2L["b7"]["BackgroundTransparency"] = 1;
-G2L["b7"]["Name"] = [[yes]];
-G2L["b7"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["b7"]["ImageRectOffset"] = Vector2.new(4, 4);
-G2L["b7"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy.Frame.yes.Value
+G2L["b7"] = Instance.new("IntValue", G2L["b5"]);
+G2L["b7"]["Value"] = 1;
 
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy.Frame.yes.TextLabel
-G2L["b8"] = Instance.new("TextLabel", G2L["b7"]);
-G2L["b8"]["TextWrapped"] = true;
-G2L["b8"]["ZIndex"] = 5;
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy.Frame.no
+G2L["b8"] = Instance.new("ImageButton", G2L["b3"]);
 G2L["b8"]["BorderSizePixel"] = 0;
-G2L["b8"]["TextSize"] = 14;
-G2L["b8"]["TextScaled"] = true;
+G2L["b8"]["SliceCenter"] = Rect.new(96, 96, 96, 96);
+G2L["b8"]["ScaleType"] = Enum.ScaleType.Slice;
 G2L["b8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b8"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["b8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b8"]["BackgroundTransparency"] = 1;
+G2L["b8"]["ImageColor3"] = Color3.fromRGB(135, 141, 255);
+G2L["b8"]["LayoutOrder"] = 3;
+G2L["b8"]["ZIndex"] = 3;
 G2L["b8"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["b8"]["Size"] = UDim2.new(0.9, 0, 0.5, 0);
+G2L["b8"]["Image"] = [[rbxassetid://89175572380749]];
+G2L["b8"]["ImageRectSize"] = Vector2.new(192, 192);
+G2L["b8"]["Size"] = UDim2.new(0.31, 0, 1, 0);
+G2L["b8"]["BackgroundTransparency"] = 1;
+G2L["b8"]["Name"] = [[no]];
 G2L["b8"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["b8"]["Text"] = [[On]];
+G2L["b8"]["ImageRectOffset"] = Vector2.new(4, 4);
 G2L["b8"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy.Frame.yes.Value
-G2L["b9"] = Instance.new("IntValue", G2L["b7"]);
-G2L["b9"]["Value"] = 1;
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy.Frame.no.TextLabel
+G2L["b9"] = Instance.new("TextLabel", G2L["b8"]);
+G2L["b9"]["TextWrapped"] = true;
+G2L["b9"]["ZIndex"] = 5;
+G2L["b9"]["BorderSizePixel"] = 0;
+G2L["b9"]["TextSize"] = 14;
+G2L["b9"]["TextScaled"] = true;
+G2L["b9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b9"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["b9"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b9"]["BackgroundTransparency"] = 1;
+G2L["b9"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["b9"]["Size"] = UDim2.new(0.9, 0, 0.5, 0);
+G2L["b9"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["b9"]["Text"] = [[Off]];
+G2L["b9"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
 
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy.Frame.no
-G2L["ba"] = Instance.new("ImageButton", G2L["b5"]);
-G2L["ba"]["BorderSizePixel"] = 0;
-G2L["ba"]["SliceCenter"] = Rect.new(96, 96, 96, 96);
-G2L["ba"]["ScaleType"] = Enum.ScaleType.Slice;
-G2L["ba"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ba"]["ImageColor3"] = Color3.fromRGB(135, 141, 255);
-G2L["ba"]["LayoutOrder"] = 3;
-G2L["ba"]["ZIndex"] = 3;
-G2L["ba"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["ba"]["Image"] = [[rbxassetid://89175572380749]];
-G2L["ba"]["ImageRectSize"] = Vector2.new(192, 192);
-G2L["ba"]["Size"] = UDim2.new(0.31, 0, 1, 0);
-G2L["ba"]["BackgroundTransparency"] = 1;
-G2L["ba"]["Name"] = [[no]];
-G2L["ba"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["ba"]["ImageRectOffset"] = Vector2.new(4, 4);
-G2L["ba"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy.Frame.no.Value
+G2L["ba"] = Instance.new("IntValue", G2L["b8"]);
 
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy.Frame.no.TextLabel
-G2L["bb"] = Instance.new("TextLabel", G2L["ba"]);
+
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings1.LogbookBuy.desc
+G2L["bb"] = Instance.new("TextLabel", G2L["b1"]);
 G2L["bb"]["TextWrapped"] = true;
 G2L["bb"]["ZIndex"] = 5;
 G2L["bb"]["BorderSizePixel"] = 0;
 G2L["bb"]["TextSize"] = 14;
 G2L["bb"]["TextScaled"] = true;
 G2L["bb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bb"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["bb"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["bb"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["bb"]["BackgroundTransparency"] = 1;
 G2L["bb"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["bb"]["Size"] = UDim2.new(0.9, 0, 0.5, 0);
+G2L["bb"]["Size"] = UDim2.new(1, 0, 0.25, 0);
 G2L["bb"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["bb"]["Text"] = [[Off]];
-G2L["bb"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["bb"]["Text"] = [[Reveals every item in the logbook, click on an item to buy it.]];
+G2L["bb"]["Name"] = [[desc]];
+G2L["bb"]["Position"] = UDim2.new(0.5, 0, 0.45, 0);
 
 
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy.Frame.no.Value
-G2L["bc"] = Instance.new("IntValue", G2L["ba"]);
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings2
+G2L["bc"] = Instance.new("Frame", G2L["a3"]);
+G2L["bc"]["ZIndex"] = 4;
+G2L["bc"]["BorderSizePixel"] = 0;
+G2L["bc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bc"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["bc"]["Size"] = UDim2.new(0.45, 0, 0.75, 0);
+G2L["bc"]["Position"] = UDim2.new(0.75, 0, 0.48, 0);
+G2L["bc"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+G2L["bc"]["Name"] = [[settings2]];
+G2L["bc"]["BackgroundTransparency"] = 1;
 
 
-
--- StarterGui.ExploitUI.Exploits_Main.Misc.LogbookBuy.desc
-G2L["bd"] = Instance.new("TextLabel", G2L["b3"]);
-G2L["bd"]["TextWrapped"] = true;
-G2L["bd"]["ZIndex"] = 5;
-G2L["bd"]["BorderSizePixel"] = 0;
-G2L["bd"]["TextSize"] = 14;
-G2L["bd"]["TextScaled"] = true;
-G2L["bd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bd"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["bd"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bd"]["BackgroundTransparency"] = 1;
-G2L["bd"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["bd"]["Size"] = UDim2.new(1, 0, 0.25, 0);
-G2L["bd"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-G2L["bd"]["Text"] = [[Reveals every item in the logbook, click on an item to buy it.]];
-G2L["bd"]["Name"] = [[desc]];
-G2L["bd"]["Position"] = UDim2.new(0.5, 0, 0.45, 0);
+-- StarterGui.ExploitUI.Exploits_Main.Misc.settings2.UIListLayout
+G2L["bd"] = Instance.new("UIListLayout", G2L["bc"]);
+G2L["bd"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["bd"]["Padding"] = UDim.new(0.3, 0);
+G2L["bd"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- StarterGui.ExploitUI.Exploits_Main.Subplaces
@@ -3985,7 +3985,6 @@ local script = G2L["103"];
 	end
 	
 	local function BuyTool(s)
-		print(s)
 		local tool = s.Name
 		local args = {
 			[1] = "BuyTool",
@@ -3995,7 +3994,17 @@ local script = G2L["103"];
 		game:GetService("ReplicatedStorage"):WaitForChild("SIGNAL_REMOTE"):FireServer(unpack(args))
 	end
 	
-	--[[local book = ui.Exploits_Main.Tools.settings1.LogbookBuy.Frame
+	local function BuySticker(s)
+		local tool = s.Name
+		local args = {
+			[1] = "BuySticker",
+			[2] = tool
+		}
+	
+		game:GetService("ReplicatedStorage"):WaitForChild("SIGNAL_REMOTE"):FireServer(unpack(args))
+	end
+	
+	local book = ui.Exploits_Main.Misc.settings1.LogbookBuy.Frame
 	for i,v in book:GetChildren() do
 		if v:IsA("ImageButton") and not table.find(Blacklists, v.Name) then
 			v.Activated:Connect(function()
@@ -4003,7 +4012,7 @@ local script = G2L["103"];
 					turnOn(v)
 					print("Turning on")
 					if v.Name == "yes" then
-						for i,s in player.PlayerGui.Logbook.Log_Main.LogItems.Tools:GetChildren() do
+						player.PlayerGui.Logbook.Log_Main.LogItems.Tools.ChildAdded:Connect(function(s)
 							if s:IsA("ImageButton") then
 								s.Visible = true
 								local connect = s.Activated:Connect(function()
@@ -4011,15 +4020,15 @@ local script = G2L["103"];
 								end)
 								table.insert(LogbookConnections, connect)
 							end
-						end
-						for i,s in player.PlayerGui.Logbook.Log_Main.LogItems.Stickers:GetChildren() do
+						end)
+						player.PlayerGui.Logbook.Log_Main.LogItems.Stickers.ChildAdded:Connect(function(s)
 							if s:IsA("ImageButton") then
 								local connect = s.Activated:Connect(function()
-									print(s)
+									BuySticker(s)
 								end)
 								table.insert(LogbookConnections, connect)
 							end
-						end
+						end)
 					elseif v.Name == "no" then
 						for i,s in LogbookConnections do
 							s:Disconnect()
@@ -4035,7 +4044,7 @@ local script = G2L["103"];
 				end
 			end)
 		end
-	end]]
+	end
 	
 	local trowelcool = ui.Exploits_Main.Tools.settings2.TrowelWeld.Frame
 	for i,v in trowelcool:GetChildren() do
