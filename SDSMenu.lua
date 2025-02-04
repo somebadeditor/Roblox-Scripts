@@ -3772,6 +3772,16 @@ local script = G2L["103"];
 				v.Frame.TextLabel.TextColor3 = Color3.new(0.34902, 0.34902, 0.34902)
 				ui.Exploits_Main.Title2.TextLabel.Text = string.sub(v.Name,3,#v.Name)
 				ui.Exploits_Main.Title2.icon.ImageRectOffset = v.Frame.icon.ImageRectOffset
+				for i,s in ui.Exploits_Main[string.sub(v.Name,3,#v.Name)].settings1:GetChildren() do
+					if s:IsA("Frame") then
+						s.Visible = true
+					end
+				end
+				for i,s in ui.Exploits_Main[string.sub(v.Name,3,#v.Name)].settings2:GetChildren() do
+					if s:IsA("Frame") then
+						s.Visible = true
+					end
+				end
 				for i,s in ui.Exploits_Main:GetChildren() do
 					if s:IsA("Frame") then
 						if string.sub(v.Name,3,#v.Name) ~= s.Name and table.find(settings, s.Name) then
@@ -3781,6 +3791,16 @@ local script = G2L["103"];
 							ui.Exploits_Main.NavBar.NavBarButtons["To" .. s.Name].ImageColor3 = Colors[s.Name]
 							ui.Exploits_Main.NavBar.NavBarButtons["To" .. s.Name].Frame.icon.ImageColor3 = Color3.new(1,1,1)
 							ui.Exploits_Main.NavBar.NavBarButtons["To" .. s.Name].Frame.TextLabel.TextColor3 = Color3.new(1,1,1)
+							for i,q in s.settings1:GetChildren() do
+								if q:IsA("Frame") then
+									q.Visible = false
+								end
+							end
+							for i,q in s.settings2:GetChildren() do
+								if q:IsA("Frame") then
+									q.Visible = false
+								end
+							end
 						end
 					end
 				end
