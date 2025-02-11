@@ -2395,13 +2395,13 @@ local script = G2L["2"];
 	end
 	
 	local Names = {
-		["Stock"] = "BrickConstruction",
+		["Wall"] = "BrickConstruction",
 		["Bridge"] = "BridgeConstruction",
 		["Truss"] = "TrussConstruction",
 		["Cage"] = "CageConstruction",
 		["Turret"] = "BallTurret",
 		["Clone"] = "Shadow",
-		["Spike"] = "Spikes",
+		["Spikes"] = "Spikes",
 		["Trampoline"] = "Trampoline",
 		["None"] = "None",
 	}
