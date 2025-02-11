@@ -2439,9 +2439,9 @@ local script = G2L["2"];
 	
 		for i,v:Model in workspace.Trowels:GetChildren() do
 			if v ~= primModel then
-				table.insert(currenttrowel[name], {["Name"] = ({v.Name:gsub("%d", "")})[1], ["Position"] = tostring(Vector3.new(v:GetBoundingBox().Position.X, v:GetBoundingBox().Position.Y - 10000, v:GetBoundingBox().Position.Z)), ["Rotation"] = tostring(v:GetBoundingBox().Rotation)})
+				table.insert(currenttrowel[name], {["Name"] = (Names[{v.Name:gsub("%d", "")})[1]], ["Position"] = tostring(Vector3.new(v:GetBoundingBox().Position.X, v:GetBoundingBox().Position.Y - 10000, v:GetBoundingBox().Position.Z)), ["Rotation"] = tostring(v:GetBoundingBox().Rotation)})
 			else
-				table.insert(currenttrowel[name], {["Name"] = ({v.Name:gsub("%d", "")})[1], ["Position"] = tostring(Vector3.new(v:GetBoundingBox().Position.X, v:GetBoundingBox().Position.Y - 10000, v:GetBoundingBox().Position.Z)), ["Rotation"] = tostring(v:GetBoundingBox().Rotation), ["IsMiddle"] = true})
+				table.insert(currenttrowel[name], {["Name"] = (Names[{v.Name:gsub("%d", "")})[1]], ["Position"] = tostring(Vector3.new(v:GetBoundingBox().Position.X, v:GetBoundingBox().Position.Y - 10000, v:GetBoundingBox().Position.Z)), ["Rotation"] = tostring(v:GetBoundingBox().Rotation), ["IsMiddle"] = true})
 			end
 		end
 		writefile("//SDSTrowels.json",game:GetService("HttpService"):JSONEncode(currenttrowel))
